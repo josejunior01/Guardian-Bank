@@ -1,4 +1,5 @@
-*{
+/*no asteristico estamos zerando altura e largua para a pagina web */
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -6,29 +7,62 @@
     text-decoration: none;
 }
 
-header{
-    background-color: rgb(0, 195, 255);
-    padding: 40px;
+/* header estamos estizinado o cabeçalho (cabeça) da pagina */
+header {
+    background-color: #180039;
+    padding: 50px;
 }
-ul{
+
+/*estilizando cabeçalho da pagina onde estao os menus */
+header ul {
     display: flex;
     justify-content: end;
-    
+
 }
+
+/* estilizando os menus */
 #menu-top a {
     margin: 20px;
     font-size: 20px;
+    color: white;
 
 }
-#sessao img{
+
+/*estilizando minha section inicial*/
+#sessao {
+    background-color: #53227a;
+}
+
+/*estilizando minha imagen dentro da minha section inicial */
+#sessao img {
     display: flex;
     padding: 50px;
-    width: 30%;
+    width: 20%;
     margin-left: 30em;
 }
-#sessao  button {
- margin-bottom: 50px;
-margin-left: 500px;
 
-    
+/*estilizando meu button dentro da minha section inicial  onde meu button esta ancorado com minha tag (A) se nao ele nao fica clicavel*/
+#sessao button {
+    margin-bottom: 60px;
+    margin-left: 43em;
+    border-radius: 90px;
+    color: rgb(255, 255, 255);
+    background-color: #270949;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* estilizando  o button para quando passa o mouse ele possa ter uma inteartividade fazendo que o button possa mudar de cor */
+#sessao button:hover {
+    background-color: #53227a;
+    transition: 0.5s;
+}
+
+/*estilizando meu (P) dentro da minha section inicial */
+#sessao p {
+    text-align: center;
+    margin: 1em;
+    font-size: 2rem;
+    color: white;
 }
