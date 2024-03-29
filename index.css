@@ -1,4 +1,3 @@
-
 /* paleta de cores 1(#53227A) 2(#441a6a) 3(#36115a) 4(#270949) 5(#180039) */
 
 
@@ -66,7 +65,8 @@ header ul {
 
 /*estilizando meu (P) dentro da minha section inicial */
 #sessao p {
-    text-align: center;
+
+    text-align: justify;
     margin: 1em;
     font-size: 2rem;
     color: white;
