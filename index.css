@@ -7,21 +7,22 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
     height: 100vh;
     width: 100vw;
 }
 /* header estamos estizinado o cabeçalho (cabeça) da pagina */
-header {
-    background-color: #180039;
+#menu-header{
+    background-color: #180039e0;
     padding: 10vh;
+   
 }
 
 /*estilizando cabeçalho da pagina onde estao os menus */
-header ul {
+#menu-header ul{
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
@@ -29,7 +30,7 @@ header ul {
 }
 
 /* estilizando os menus */
-#menu-top a {
+#menu-header a {
     margin: 20px;
     font-size: 20px;
     color: white;
@@ -39,54 +40,54 @@ header ul {
 
 /*estilizando minha section inicial*/
 #sessao {
-    background-color: #53227a;
+    background: linear-gradient(180deg, #a2aaaa 8.33%,#180039 100%);
+    padding: 100px;
 }
 
-/*estilizando minha imagen dentro da minha section inicial */
-#sessao img {
-    display: flex;
-    padding: 50px;
-    width: 20%;
-    margin-left: 30em;
-}
+
 
 /*estilizando meu button dentro da minha section inicial  onde meu button esta ancorado com minha tag (A) se nao ele nao fica clicavel*/
 #sessao button {
-    margin-bottom: 60px;
-    margin-left: 43em;
-    border-radius: 90px;
+    padding: 20px ;
+    border-radius: 50px;
+    width: 200px;
     color: rgb(255, 255, 255);
     background-color: #270949;
-    width: 200px;
-    height: 50px;
+    margin: 30px ;
     cursor: pointer;
+    border-color: white;
 }
 
 /* estilizando  o button para quando passa o mouse ele possa ter uma inteartividade fazendo que o button possa mudar de cor */
 #sessao button:hover {
-    background-color: #53227a;
+    background-color: #461d68;
     transition: 0.5s;
+}
+
+#sessao h1 {
+    
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.473);
 }
 
 /*estilizando meu (P) dentro da minha section inicial */
 #sessao p {
-
-    text-align: justify;
-    margin: 1em;
-    font-size: 2rem;
+    font-size: 40px;
     color: white;
   
 }
 
 /*section sesseao 2 */
 #sessao2{
- 
+    background-color:   #180039 ;
+    padding: 100px;
 }
 
 #sessao2 img{
-    display: flex;
+    display: flex ;
     
 }
+
 #sessao2 img {
     padding: 50px;
     width: 500px;
