@@ -10,17 +10,21 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
-
+body{
+    height: 100vh;
+    width: 100vw;
+}
 /* header estamos estizinado o cabeçalho (cabeça) da pagina */
 header {
     background-color: #180039;
-    padding: 50px;
+    padding: 10vh;
 }
 
 /*estilizando cabeçalho da pagina onde estao os menus */
 header ul {
     display: flex;
     justify-content: end;
+    flex-wrap: wrap;
 
 }
 
@@ -29,6 +33,7 @@ header ul {
     margin: 20px;
     font-size: 20px;
     color: white;
+    flex-wrap: wrap;
 
 }
 
@@ -70,4 +75,70 @@ header ul {
     margin: 1em;
     font-size: 2rem;
     color: white;
+  
+}
+
+/*section sesseao 2 */
+#sessao2{
+ 
+}
+
+#sessao2 img{
+    display: flex;
+    
+}
+#sessao2 img {
+    padding: 50px;
+    width: 500px;
+    height: 350px;
+    margin-left: 400px;
+    
+
+}
+div{
+    display: block;
+}
+#sessao2 p {
+    padding: 2em;
+   text-align: center;
+    font-size: 2em;
+    
+}
+
+
+#sessao2 a button  {
+    margin-bottom:60px ;
+    margin-left: 43em;
+    border-radius: 90px;
+    height: 50px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+ 
+/*section sessao 3 */
+
+#sessao3 h2{
+    padding: 1em;
+text-align: center;
+font-size: 3em;
+}
+#sessao3 p{
+    padding: 100px;
+    font-size: 20px;
+
+}
+
+#sessao3 a button{
+    margin-left: 43em;
+    border-radius: 90px;
+    margin-bottom: 60px;
+    width: 200px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.iline{
+  margin: 0 auto;
+    width: 70%;
+
+    
 }
